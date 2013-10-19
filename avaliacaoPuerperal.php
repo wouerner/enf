@@ -1,0 +1,154 @@
+            <fieldset>
+                <legend>AVALIAÇÃO PUERPERAL</legend>
+                <div class="form-group">
+                    <label class="checkbox-inline">Tempo de Puerpério</label>
+                    <input type="text" id="inlineCheckbox2" value="option2">
+                </div>
+                <div>
+                    <label>Tipo de Parto:</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> normal
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> cesárea
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> fórceps
+                    </label>
+                </div>
+                <div>
+                    <label>Tipo de Parto:</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> Não
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> Sim
+                    </label>
+                </div>
+                <div>
+                    <label>Laceração de trajeto:</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> Não
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> Sim
+                    </label>
+                    <input type="text" id="inlineCheckbox2" value="option2"> 
+                </div>
+                <div>
+                    <label>Intercorrências no Parto:</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> Não
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> Sim
+                    </label>
+                    <input type="text" id="inlineCheckbox2" value="option2"> 
+                </div>
+                <div>
+                    <label>Involução Uterina:</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> involuído 
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> subinvoluído
+                    </label>
+                    <input type="text" id="inlineCheckbox2" value="option2"> 
+                </div>
+                <div>
+                    <label>Retração Uterina:</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> presente  
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> ausente
+                    </label>
+                    <input type="text" id="inlineCheckbox2" value="option2"> 
+                </div>
+                <div>
+                    <label>Ferida Operatória</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> limpa e seca
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> sem sinais hemorrágicos
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> presença de sangramento
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> sinais flogísticos
+                    </label>
+                </div>
+               
+                <div>
+                    <label>Sinais Flogísticos:</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> sim 
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> não
+                    </label>
+                </div>
+                <div>
+                    <label>Sangramento</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> pequena
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> moderada
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> coágulos
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> odor característico
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> odor fétido
+                    </label>
+                </div>
+                <div>
+                    <label>Amamentação/Vínculo</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> iniciou na 1ª hora
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> iniciou após a 1ª hora, 
+                    </label> 
+                </div>
+                <div>
+                    <label>Motivo:</label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> aguardando resultado de HIV
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> dificuldade de sucção do RN
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> dificuldade de pega
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> dificuldade de posição
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> dificuldade de pega
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> ausência de colostro
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> RN em UTI
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" id="inlineCheckbox2" value="option2"> outros
+                    </label>
+                    <input type="text" id="inlineCheckbox2" value="option2">
+                </div>
+                <div>
+                    <label class="">
+                        Condutas: 
+                    </label>
+                    <input type="text" id="inlineCheckbox2" value="option2">
+                </div>
+            </fieldset>
