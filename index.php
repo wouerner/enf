@@ -28,36 +28,8 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#antFamiliares">
-                                Passo 02
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="antFamiliares" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <?php include('antFamiliares.php'); ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#antPessoais">
-                                Passo 03
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="antPessoais" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <?php include('antPessoais.php'); ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#antObstetricos">
-                                Passo 04
+                                Passo 02
                             </a>
                         </h4>
                     </div>
@@ -71,7 +43,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#gestacaoAtual">
-                                Passo 05
+                                Passo 03
                             </a>
                         </h4>
                     </div>
@@ -85,7 +57,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#regulacaoImunlogica">
-                                Passo 06
+                                Passo 04
                             </a>
                         </h4>
                     </div>
@@ -99,7 +71,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#exameFisico">
-                                Passo 07
+                                Passo 05
                             </a>
                         </h4>
                     </div>
@@ -113,7 +85,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#avaliacaoPuerperal">
-                                Passo 08
+                                Passo 06
                             </a>
                         </h4>
                     </div>
@@ -127,12 +99,20 @@
         </form>
         <form>
             <div class="form-group">
-                <label>Diagnostico</label>
+                <label>Diagnostico Enfermagem:</label>
                 <input class="form-control" type="text" value="Integridade tissular prejudicada">
+            </div>
+            <div class="form-group">
+                <label>Resultado Esperado:</label>
+                <input class="form-control" type="text" value="">
+            </div>
+            <div class="form-group">
+                <label>Status:</label>
+                <input class="form-control" type="text" value="">
             </div>
             <div class="row">
                 <div class="form-group col-lg-12">
-                    <label>Intervenções</label>
+                    <label>Intervenções de enfermagem</label>
                     <label class="checkbox-inline">
                         <input type="checkbox" id="inlineCheckbox1" value="option1">Avaliar presença de sinais hemorrágicos em região operatória.
                     </label>
@@ -153,5 +133,8 @@
                 </div>
             </div>
         </form>
+        <div id="resumo">
+            Resumo
+        </div>
     </body>
 </html>
