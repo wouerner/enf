@@ -45,10 +45,12 @@
                     </label>
                 </div>
                 <div class="control-group">
-                    <label class="checkbox-inline">
+                    <label class="checkbox-inline col-lg-3">
                         <input type="radio" id="inlineCheckbox2" value="option2"> fases de luto
                     </label>
-                    <input class="form-control" type="text" id="inlineCheckbox2" value="option2">
+                    <div class="col-lg-4">
+                        <input class="form-control" type="text" id="inlineCheckbox2" value="">
+                    </div>
                 </div>
             </fieldset>
             <fieldset>
@@ -65,27 +67,34 @@
                     </label>
                 </div>
                 <div class="form-group col-lg-4">
-                    <label class="checkbox-inline">
+                    <label class="checkbox-inline col-lg-7">
                         <input type="radio" id="inlineCheckbox2" value="option2"> desidratada
                     </label>
-                    <input class="form-control" type="text" id="inlineCheckbox2" value="">/+4
+                    <div class="input-group col-lg-5">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">/+4</span>
+                    </div>
                 </div>
             </fieldset>
             <fieldset>
-                <div class="form-group col-lg-8">
-                    <label> Nutrição: </label>
-                    <label class="checkbox-inline">
-                        <input type="radio" id="inlineCheckbox2" value="option2"> dieta zero
-                    </label>
-                    <label class="checkbox-inline">
-                        <input type="radio" id="inlineCheckbox2" value="option2"> dieta liberada 
-                    </label>
-                </div>
-                <div class="form-group col-lg-4">
-                    <label class="checkbox-inline">
-                        <input type="radio" id="inlineCheckbox2" value="option2"> última ingesta
-                    </label>
-                    <input class="form-control" type="text" id="inlineCheckbox2" value="option2">
+                <div class="row">
+                    <div class="form-group col-lg-8">
+                        <label> Nutrição: </label>
+                        <label class="checkbox-inline">
+                            <input type="radio" id="inlineCheckbox2" value="option2"> dieta zero
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="radio" id="inlineCheckbox2" value="option2"> dieta liberada 
+                        </label>
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label class="checkbox-inline col-lg-6">
+                            <input type="radio" id="inlineCheckbox2" value=""> última ingesta
+                        </label>
+                        <div class="col-lg-4">
+                            <input class="form-control" type="text" id="inlineCheckbox2" value="">
+                        </div>
+                    </div>
                 </div>
             </fieldset>
             <fieldset>
@@ -160,10 +169,12 @@
             <fieldset>
                 <legend> Regulação térmica: </legend>
                 <div class="form-group col-lg-4">
-                    <label class="checkbox-inline">
+                    <label class="checkbox-inline col-lg-4">
                         <input type="radio" id="inlineCheckbox2" value="option2"> temp.
                     </label>
-                    <input class="form-control" type="text" id="inlineCheckbox2" value="option2">
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="inlineCheckbox2" value="">
+                    </div>
                 </div>
                 <div class="form-group">
                     <label class="checkbox-inline">
@@ -183,26 +194,36 @@
                     </label>
                 </div>
                 <div class="form-group col-lg-4">
-                    <label class="checkbox-inline">
+                    <label class="checkbox-inline col-lg-4">
                         <input type="radio" id="inlineCheckbox2" value="option2"> Outros 
                     </label>
-                    <input class="form-control" type="text" id="inlineCheckbox2" value=""> 
+                    <div class="col-lg-6">
+                        <input class="form-control" type="text" id="inlineCheckbox2" value="">
+                    </div>
                 </div>
             </fieldset>
             <fieldset>
                 <legend> Oxigenação: </legend>
-                <div class="form-group">
-                    <label class="checkbox-inline">FR:
-                        <input class="form-control" type="text" id="inlineCheckbox2" value="option2"> irpm
+                <div class="form-group col-lg-4">
+                    <label class="control-label col-lg-2">FR:
                     </label>
+                    <div class="input-group col-lg-6">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">irpm</span>
+                    </div>
+                </div>
+                <div class="form-group">
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> Tempo de enchimento capilar
                     </label>
                 </div>
-                <div class="form-group">
-                    <label class="checkbox-inline">Saturação
-                        <input class="form-control" type="text" id="inlineCheckbox2" value="">%
+                <div class="form-group col-lg-4">
+                    <label class="checkbox-inline col-lg-4">Saturação
                     </label>
+                    <div class="input-group col-lg-6">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">%</span>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label class="checkbox-inline">
@@ -230,16 +251,21 @@
             </fieldset>
             <fieldset>
                 <legend>Regulação vascular:</legend>
-                <div class="form-group">
-                    <label class="checkbox-inline">FC: _____bpm;
-                        <input class="form-control" type="text" id="inlineCheckbox2" value="option2"> 
+                <div class="form-group col-lg-4">
+                    <label class="checkbox-inline col-lg-2">FC:
                     </label>
+                    <div class="input-group col-lg-6">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">bpm</span>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label class="checkbox-inline">PA:
+                <div class="form-group col-lg-5">
+                    <label class="checkbox-inline col-lg-4">PA:
                     </label>
-                        <input type="text" id="inlineCheckbox2" value="option2">  x
-                        <input type="text" id="inlineCheckbox2" value="option2">mmHg
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" value="____x____">
+                        mmHg
+                    </div>
                 </div>
                 <div class="form-group">
                     <label class="checkbox-inline">

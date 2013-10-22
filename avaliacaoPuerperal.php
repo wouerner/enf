@@ -1,8 +1,8 @@
             <fieldset>
                 <legend>AVALIAÇÃO PUERPERAL</legend>
-                <div class="form-group">
-                    <label class="checkbox-inline">Tempo de Puerpério</label>
-                    <input type="text" id="inlineCheckbox2" value="option2">
+                <div class="form-group col-lg-4">
+                    <label class="control-label">Tempo de Puerpério</label>
+                    <input type="text" class="form-control" value="">
                 </div>
                 <div>
                     <label>Tipo de Parto:</label>
@@ -16,7 +16,7 @@
                         <input type="radio" id="inlineCheckbox2" value="option2"> fórceps
                     </label>
                 </div>
-                <div>
+                <div class="col-lg-4">
                     <label>Tipo de Parto:</label>
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> Não
@@ -25,7 +25,7 @@
                         <input type="radio" id="inlineCheckbox2" value="option2"> Sim
                     </label>
                 </div>
-                <div>
+                <div class="col-lg-6">
                     <label>Laceração de trajeto:</label>
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> Não
@@ -33,9 +33,11 @@
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> Sim
                     </label>
-                    <input type="text" id="inlineCheckbox2" value="option2"> 
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" value="option2"> 
+                    </div>
                 </div>
-                <div>
+                <div class="col-lg-6">
                     <label>Intercorrências no Parto:</label>
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> Não
@@ -43,9 +45,9 @@
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> Sim
                     </label>
-                    <input type="text" id="inlineCheckbox2" value="option2"> 
+                    <input type="text" class="form-control" value="option2"> 
                 </div>
-                <div>
+                <div class="col-lg-6">
                     <label>Involução Uterina:</label>
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> involuído 
@@ -53,9 +55,9 @@
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> subinvoluído
                     </label>
-                    <input type="text" id="inlineCheckbox2" value="option2"> 
+                    <input type="text" class="form-control" value="option2"> 
                 </div>
-                <div>
+                <div class="col-lg-6">
                     <label>Retração Uterina:</label>
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> presente  
@@ -63,9 +65,9 @@
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> ausente
                     </label>
-                    <input type="text" id="inlineCheckbox2" value="option2"> 
+                    <input type="text" class="form-control" value="option2"> 
                 </div>
-                <div>
+                <div class="col-lg-6">
                     <label>Ferida Operatória</label>
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> limpa e seca
@@ -80,8 +82,7 @@
                         <input type="radio" id="inlineCheckbox2" value="option2"> sinais flogísticos
                     </label>
                 </div>
-               
-                <div>
+                <div class="col-lg-6">
                     <label>Sinais Flogísticos:</label>
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> sim 
@@ -117,7 +118,7 @@
                         <input type="radio" id="inlineCheckbox2" value="option2"> iniciou após a 1ª hora, 
                     </label> 
                 </div>
-                <div>
+                <div class="row">
                     <label>Motivo:</label>
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> aguardando resultado de HIV
@@ -140,15 +141,21 @@
                     <label class="checkbox-inline">
                         <input type="radio" id="inlineCheckbox2" value="option2"> RN em UTI
                     </label>
-                    <label class="checkbox-inline">
-                        <input type="radio" id="inlineCheckbox2" value="option2"> outros
-                    </label>
-                    <input type="text" id="inlineCheckbox2" value="option2">
+                    <div class="form-group col-lg-4">
+                        <label class="checkbox-inline col-lg-3">
+                            <input type="radio" id="inlineCheckbox2" value="option2"> outros
+                        </label>
+                        <div class="col-lg-3">
+                            <input type="text"  class="form-control" value="">
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label class="">
-                        Condutas: 
-                    </label>
-                    <input type="text" id="inlineCheckbox2" value="option2">
+                <div class="row">
+                    <div class=" form-group col-lg-12">
+                        <label class="control-label">
+                            Condutas:
+                        </label>
+                        <input type="text" class="form-control" value="">
+                    </div>
                 </div>
             </fieldset>

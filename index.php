@@ -124,6 +124,34 @@
                     </div>
                 </div>
             </div>
-         </form>
+        </form>
+        <form>
+            <div class="form-group">
+                <label>Diagnostico</label>
+                <input class="form-control" type="text" value="Integridade tissular prejudicada">
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-12">
+                    <label>Intervenções</label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" id="inlineCheckbox1" value="option1">Avaliar presença de sinais hemorrágicos em região operatória.
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" id="inlineCheckbox2" value="option2">Manter região operatória limpa e evitar focos de infecção. 
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" id="inlineCheckbox2" value="option2"> Monitorar SSVV e curva térmica
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" id="inlineCheckbox2" value="option2"> Avaliar integridade da sutura em ferida operatória.
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" id="inlineCheckbox2" value="option2"> Morientar higiene adequada no períneo.                    </label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" id="inlineCheckbox2" value="option2"> Realizar curativos de acordo com a necessidade.
+                    </label>
+                </div>
+            </div>
+        </form>
     </body>
 </html>
