@@ -5,6 +5,7 @@
             @import "assets/bootstrap/dist/css/bootstrap.css";
         </style>
         <script src="assets/jquery/jquery.min.js"></script>
+        <script src="assets/jquery/jquery.maskedinput.js"></script>
         <script src="assets/bootstrap/dist/js/bootstrap.js"></script>
     </head>
     <body class="container">

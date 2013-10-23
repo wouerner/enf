@@ -1,22 +1,24 @@
-<div id="resumo">
-    Resumo
+<div class="row">
+    <div class="col-lg-12">
+        <div id="resumo"></div>
+    </div>
 </div>
 <script>
+    jQuery(function($){
+        $("#anos").mask("99 anos");
+        $("#data").mask("99/99/9999");
+        $("#hora").mask("99:99");
+    });
+
     jQuery("#gerar").click(function(event){
         event.preventDefault();
-        var text = jQuery('input[name=estadoCivil]:checked').val();
-        //console.log(jQuery('input'));
-        //console.log(text);
         var texto='';
         jQuery('input').each(function(index){
-            //console.log( index + ": " + $( this ).text() );
-            //console.log(  this.type );
-            //texto = texto +', '+ this.value;
-            if(this.type == 'radio' && this.checked==true){
-                console.log(  this.type );
+            console.log(this.type);
+            if (this.type == 'radio' && this.checked==true) {
                 texto = texto +', '+ this.value;
-            }else{
-                if (this.type=='text' || this.type=='checkbox') {
+            } else {
+                if (this.type=='text' || (this.type=='checkbox') && this.checked==true) {
                     texto = texto +', '+ this.value;
                 }
             }
