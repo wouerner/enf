@@ -7,7 +7,6 @@
         var text = jQuery('input[name=estadoCivil]:checked').val();
         //console.log(jQuery('input'));
         //console.log(text);
-        jQuery("#resumo").append(text);
         var texto='';
         jQuery('input').each(function(index){
             //console.log( index + ": " + $( this ).text() );
@@ -23,5 +22,6 @@
             }
         });
         console.log(texto);
+        jQuery("#resumo").append(texto);
     });
 </script>
