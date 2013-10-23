@@ -132,9 +132,12 @@
                     </label>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <button id="gerar" type="button" class="btn btn-primary">Gerar</button>
+                </div>
+            </div>
         </form>
-        <div id="resumo">
-            Resumo
-        </div>
+        <?php include('resumo.php'); ?>
     </body>
 </html>
