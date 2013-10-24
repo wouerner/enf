@@ -47,10 +47,10 @@
         <div class="form-group col-lg-4">
             <label class="control-label">Acompanhada do RN:</label>
             <label class="radio-inline">
-                <input type="radio" value="option1"> Sim
+                <input type="radio" value="Sim"> Sim
             </label>
             <label class="checkbox-inline">
-                <input type="radio" value="option2"> Não
+                <input type="radio" value="Não"> Não
             </label>
         </div>
         <div class="form-group col-lg-8">
@@ -65,18 +65,18 @@
     <legend>Antecedentes Familiares</legend>
     <div class="form-group col-lg-8">
         <label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox1" value="Hipertensão Arterial"> Hipertensão Arterial
+            <input type="checkbox" value="Hipertensão Arterial"> Hipertensão Arterial
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox2" value="Diabetes Mellitus"> Diabetes Mellitus
+            <input type="checkbox"  value="Diabetes Mellitus"> Diabetes Mellitus
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox2" value="Nenhum"> Nenhum
+            <input type="checkbox"  value="Nenhum"> Nenhum
         </label>
     </div>
     <div class="form-group col-lg-4">
         <label class=" col-lg-4 checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox2" value="Outros"> Outros
+            <input type="checkbox" value="Outros"> Outros
         </label>
         <div class="col-lg-4">
             <input type="text" class="form-control" name="">

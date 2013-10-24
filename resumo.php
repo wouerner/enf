@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row jumbotron">
     <div class="col-lg-12">
         <div id="resumo"></div>
     </div>
@@ -14,11 +14,14 @@
         event.preventDefault();
         var texto='';
         jQuery('input').each(function(index){
-            console.log(this.type);
             if (this.type == 'radio' && this.checked==true) {
                 texto = texto +', '+ this.value;
             } else {
-                if (this.type=='text' || (this.type=='checkbox') && this.checked==true) {
+                if ((this.type=='text' && this.value != '') || ((this.type=='checkbox') && 
+                    jQuery(this).is(':checked') == true)
+                    //this.checked==true
+                    ) {
+                    console.log(this.type);
                     texto = texto +', '+ this.value;
                 }
             }

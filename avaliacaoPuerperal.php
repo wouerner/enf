@@ -10,13 +10,13 @@
         <div>
             <label>Tipo de Parto:</label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> normal
+                <input type="radio" id="inlineCheckbox2" value="normal"> normal
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> cesárea
+                <input type="radio" id="inlineCheckbox2" value="cesárea"> cesárea
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> fórceps
+                <input type="radio" id="inlineCheckbox2" value="fórceps"> fórceps
             </label>
         </div>
     </div>
@@ -24,10 +24,10 @@
         <div class="form-group col-lg-6">
             <label class="col-lg-4">Laceração de trajeto:</label>
             <label class="checkbox-inline col-lg-2">
-                <input type="radio" value="option2"> Não
+                <input type="radio" value="Laceração de trajeto Não"> Não
             </label>
-            <label class="checkbox-inline col-lg-2">
-                <input type="radio" value="option2"> Sim
+            <label class="radio-inline col-lg-2">
+                <input type="radio" value="Sim"> Sim
             </label>
             <div class="col-lg-3">
                 <input type="text" class="form-control" value="">
@@ -36,10 +36,10 @@
         <div class="form-group col-lg-6">
             <label class="col-lg-5">Intercorrências no Parto:</label>
             <label class="col-lg-2 checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> Não
+                <input type="radio" value="Intercorrências no Parto Não"> Não
             </label>
             <label class="col-lg-2 checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> Sim
+                <input type="radio" value="Sim"> Sim
             </label>
             <div class="col-lg-2">
                 <input type="text" class="form-control" value="">
@@ -49,37 +49,37 @@
     <div class="row">
         <div class="col-lg-6">
             <label>Involução Uterina:</label>
-            <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> involuído
+            <label class="radio-inline">
+                <input type="radio"  value="involuído"> involuído
             </label>
-            <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> subinvoluído
+            <label class="radio-inline">
+                <input type="radio" value="subinvoluído"> subinvoluído
             </label>
         </div>
         <div class="col-lg-6">
             <label>Retração Uterina:</label>
-            <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> presente
+            <label class="radio-inline">
+                <input type="radio" value="presente"> presente
             </label>
-            <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> ausente
+            <label class="radio-inline">
+                <input type="radio" value="ausente"> ausente
             </label>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12">
             <label>Ferida Operatória</label>
-            <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> limpa e seca
+            <label class="radio-inline">
+                <input type="radio" value="limpa e seca"> limpa e seca
+            </label>
+            <label class="radio-inline">
+                <input type="radio" value="sem sinais hemorrágicos"> sem sinais hemorrágicos
+            </label>
+            <label class="radio-inline">
+                <input type="radio" value="presença de sangramento"> presença de sangramento
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> sem sinais hemorrágicos
-            </label>
-            <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> presença de sangramento
-            </label>
-            <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> sinais flogísticos
+                <input type="radio" value="sinais flogísticos"> sinais flogísticos
             </label>
         </div>
     </div>
@@ -87,10 +87,10 @@
         <div class="col-lg-6">
             <label>Sinais Flogísticos:</label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> sim
+                <input type="radio" value="sim"> sim
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> não
+                <input type="radio" value="não"> não
             </label>
         </div>
     </div>
@@ -98,59 +98,59 @@
         <div class="col-lg-12">
             <label>Sangramento</label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> pequena
+                <input type="radio" value="pequena"> pequena
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> moderada
+                <input type="radio" value="moderada"> moderada
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> coágulos
+                <input type="radio" value="coágulos"> coágulos
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> odor característico
+                <input type="radio" value="odor característico"> odor característico
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> odor fétido
+                <input type="radio" value="odor fétido"> odor fétido
             </label>
         </div>
     </div>
     <div>
         <label>Amamentação/Vínculo</label>
         <label class="checkbox-inline">
-            <input type="radio" id="inlineCheckbox2" value="option2"> iniciou na 1ª hora
+            <input type="radio"  value="iniciou na 1ª hora"> iniciou na 1ª hora
         </label>
         <label class="checkbox-inline">
-            <input type="radio" id="inlineCheckbox2" value="option2"> iniciou após a 1ª hora,
+            <input type="radio" value="iniciou após a 1ª hora"> iniciou após a 1ª hora,
         </label>
     </div>
     <div class="row">
         <div class="form-group col-lg-12">
             <label>Motivo:</label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> aguardando resultado de HIV
+                <input type="radio" id="inlineCheckbox2" value="aguardando resultado de HIV"> aguardando resultado de HIV
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> dificuldade de sucção do RN
+                <input type="radio" id="inlineCheckbox2" value="dificuldade de sucção do RN"> dificuldade de sucção do RN
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> dificuldade de pega
+                <input type="radio" id="inlineCheckbox2" value="dificuldade de pega"> dificuldade de pega
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> dificuldade de posição
+                <input type="radio" id="inlineCheckbox2" value="dificuldade de posição"> dificuldade de posição
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> dificuldade de pega
+                <input type="radio" id="inlineCheckbox2" value="dificuldade de pega"> dificuldade de pega
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> ausência de colostro
+                <input type="radio" id="inlineCheckbox2" value="ausência de colostro"> ausência de colostro
             </label>
             <label class="checkbox-inline">
-                <input type="radio" id="inlineCheckbox2" value="option2"> RN em UTI
+                <input type="radio" id="inlineCheckbox2" value="RN em UTI"> RN em UTI
             </label>
         </div>
         <div class="form-group col-lg-4">
             <label class="checkbox-inline col-lg-3">
-                <input type="radio" id="inlineCheckbox2" value="option2"> outros
+                <input type="radio" id="inlineCheckbox2" value="outros"> outros
             </label>
             <div class="col-lg-3">
                 <input type="text"  class="form-control" value="">
