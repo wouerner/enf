@@ -108,36 +108,38 @@
             </div>
         </div>
         <div class="row">
-            <div class="form-group col-lg-1">
-                <label class="checkbox-inline">
+            <div class="form-group col-lg-4">
+                <label class="checkbox-inline col-lg-3">
                     <input type="checkbox" value="Alergias"> Alergias
                 </label>
+                <div class="col-lg-6">
+                    <input class="form-control" name="alergias">
+                </div>
             </div>
-            <div class="col-lg-1">
-                <input class="form-control" name="alergias">
-            </div>
-            <div class="control-group col-lg-1">
-                <label class="checkbox-inline">
+            <div class="control-group col-lg-4">
+                <label class="checkbox-inline col-lg-3">
                     <input type="checkbox" value="outros"> outros
                 </label>
+                <div class="col-lg-6">
+                    <input class="form-control">
+                </div>
             </div>
-            <div class="col-lg-1">
-                <input class="form-control" name="filhoDe">
-            </div>
-            <div class="control-group col-lg-1">
-                <label class="checkbox-inline">
+            <div class="control-group col-lg-4">
+                <label class="checkbox-inline col-lg-3">
                     <input type="checkbox" value="DST"> DST
                 </label>
+                <div class="col-lg-6">
+                    <input class="form-control">
+                </div>
             </div>
-            <div class="col-lg-1">
-                <input class="form-control" name="filhoDe">
-            </div>
-            <div class="control-group col-lg-2">
-                <label class="checkbox-inline">
-                    <input type="checkbox" value="Cirurgias Ginecológicas"> Cirurgias Ginecológicas
+        </div>
+        <div class="row">
+            <div class="control-group col-lg-4">
+                <label class="checkbox-inline col-lg-4">
+                    <input type="checkbox" value="Cirurgias Ginecológicas">Cirurgias Ginecológicas
                 </label>
             </div>
-            <div class="col-lg-1">
+            <div class="col-lg-6">
                 <input class="form-control">
             </div>
         </div>

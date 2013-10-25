@@ -10,14 +10,15 @@
         <script src="assets/bootstrap/dist/js/bootstrap.js"></script>
     </head>
     <body class="container">
-        <h1>Historico de Enfermagem da Puérpera</h1>
+        <h1>Histórico de Enfermagem da Puérpera</h1>
         <form>
             <div class="panel-group" id="accordion">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                Passo 01
+                                Passo 01 - Identificação
+                                <b class="caret"></b>
                             </a>
                         </h4>
                     </div>
@@ -31,7 +32,8 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#antObstetricos">
-                                Passo 02
+                                Passo 02 - Antecedentes Obstétricos / Perinatais
+                                <b class="caret"></b>
                             </a>
                         </h4>
                     </div>
@@ -41,11 +43,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <div class="panel  panel-primary">
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#gestacaoAtual">
-                                Passo 03
+                                Passo 03 - Gestação Atual
+                                <b class="caret"></b>
                             </a>
                         </h4>
                     </div>
@@ -59,7 +62,8 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#regulacaoImunlogica">
-                                Passo 04
+                                Passo 04 - Regulação imunológica - Sorologias
+                                <b class="caret"></b>
                             </a>
                         </h4>
                     </div>
@@ -69,11 +73,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <div class="panel  panel-primary">
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#exameFisico">
-                                Passo 05
+                                Passo 05 - Exame Físico
+                                <b class="caret"></b>
                             </a>
                         </h4>
                     </div>
@@ -87,7 +92,8 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#avaliacaoPuerperal">
-                                Passo 06
+                                Passo 06 - Avaliação Puerperal
+                                <b class="caret"></b>
                             </a>
                         </h4>
                     </div>
@@ -99,9 +105,9 @@
                 </div>
             </div>
         </form>
-        <form>
+        <form class="well">
             <div class="form-group">
-                <label>Diagnostico Enfermagem:</label>
+                <label>Diagnóstico Enfermagem:</label>
                 <input class="form-control" type="text" value="Integridade tissular prejudicada">
             </div>
             <div class="form-group">
@@ -155,5 +161,14 @@
             </div>
         </form>
         <?php include('resumo.php'); ?>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-44121271-2', 'wouerner.eti.br');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>

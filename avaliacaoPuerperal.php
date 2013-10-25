@@ -1,5 +1,5 @@
 <fieldset>
-    <legend>AVALIAÇÃO PUERPERAL</legend>
+    <legend>Avaliação Puerperal</legend>
     <div class="row">
         <div class="form-group col-lg-4">
             <label class="control-label col-lg-6">Tempo de Puerpério</label>

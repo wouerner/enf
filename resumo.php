@@ -15,18 +15,18 @@
         var texto='';
         jQuery('input').each(function(index){
             if (this.type == 'radio' && this.checked==true) {
-                texto = texto +', '+ this.value;
+                texto = texto +' '+ this.value;
             } else {
                 if ((this.type=='text' && this.value != '') || ((this.type=='checkbox') &&
                     jQuery(this).is(':checked') == true)
                     //this.checked==true
                     ) {
                     console.log(this.type);
-                    texto = texto +', '+ this.value;
+                    texto = texto +' '+ this.value;
                 }
             }
         });
         console.log(texto);
-        jQuery("#resumo").append(texto);
+        jQuery("#resumo").empty().append(texto);
     });
 </script>
