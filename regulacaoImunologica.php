@@ -51,13 +51,13 @@
     <div class="form-group">
         <label>HIV</label>
         <label class="checkbox-inline">
-            <input type="radio"  value="option2"> imune
+            <input name="hiv" type="radio"  value="HIV imune"> imune
+        </label>
+        <label name="hiv" class="checkbox-inline">
+            <input type="radio"  value="HIV suscetível"> suscetível
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="option2"> suscetível
-        </label>
-        <label class="checkbox-inline">
-            <input type="radio"  value="option2"> não realizada
+            <input name="hiv" type="radio"  value="HIV não realizada"> não realizada
         </label>
     </div>
  </fieldset>
@@ -66,25 +66,25 @@
     <div class="form-group">
         <label>Hep. B</label>
         <label class="radio-inline">
-            <input type="radio"  value="option2"> imune
+            <input type="radio"  value="Hep. B imune"> imune
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="option2"> não vacinada
+            <input type="radio"  value="Hep. B não vacinada"> não vacinada
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="option2"> esquema incompleto
+            <input type="radio"  value="Hep. B esquema incompleto"> esquema incompleto
         </label>
     </div>
     <div class="form-group">
         <label>Tétano</label>
         <label class="radio-inline">
-            <input type="radio"  value="option2"> imune
+            <input type="radio"  value="Tétano imune"> imune
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="option2"> não vacinada
+            <input type="radio"  value="Tétano não vacinada"> não vacinada
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="option2"> não vacinada
+            <input type="radio"  value="Tétano não vacinada"> não vacinada
         </label>
     </div>
     <div class="form-group">

@@ -3,6 +3,7 @@
         <meta charset="utf-8">
         <style>
             @import "assets/bootstrap/dist/css/bootstrap.css";
+            @import "assets/css/style.css";
         </style>
         <script src="assets/jquery/jquery.min.js"></script>
         <script src="assets/jquery/jquery.maskedinput.js"></script>
@@ -12,7 +13,7 @@
         <h1>Historico de Enfermagem da Puérpera</h1>
         <form>
             <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
+                <div class="panel panel-primary">
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
@@ -111,28 +112,42 @@
                 <label>Status:</label>
                 <input class="form-control" type="text" value="">
             </div>
-            <div class="row">
-                <div class="form-group col-lg-12">
-                    <label>Intervenções de enfermagem</label>
-                    <label class="checkbox-inline">
-                        <input type="checkbox" id="inlineCheckbox1" value="option1">Avaliar presença de sinais hemorrágicos em região operatória.
-                    </label>
-                    <label class="checkbox-inline">
-                        <input type="checkbox" id="inlineCheckbox2" value="option2">Manter região operatória limpa e evitar focos de infecção. 
-                    </label>
-                    <label class="checkbox-inline">
-                        <input type="checkbox" id="inlineCheckbox2" value="option2"> Monitorar SSVV e curva térmica
-                    </label>
-                    <label class="checkbox-inline">
-                        <input type="checkbox" id="inlineCheckbox2" value="option2"> Avaliar integridade da sutura em ferida operatória.
-                    </label>
-                    <label class="checkbox-inline">
-                        <input type="checkbox" id="inlineCheckbox2" value="option2"> Morientar higiene adequada no períneo.                    </label>
-                    <label class="checkbox-inline">
-                        <input type="checkbox" id="inlineCheckbox2" value="option2"> Realizar curativos de acordo com a necessidade.
-                    </label>
+            <fieldset>
+                <legend>Intervenções de enfermagem</legend>
+                <div class="row">
+                    <div class="form-group col-lg-6">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="Avaliar presença de sinais hemorrágicos em região operatória.">Avaliar presença de sinais hemorrágicos em região operatória.
+                        </label>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="Manter região operatória limpa e evitar focos de infecção.">Manter região operatória limpa e evitar focos de infecção.
+                        </label>
+                    </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="form-group col-lg-6">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value=" Monitorar SSVV e curva térmica"> Monitorar SSVV e curva térmica
+                        </label>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label class="checkbox-inline">
+                            <input type="checkbox"  value="Avaliar integridade da sutura em ferida operatória."> Avaliar integridade da sutura em ferida operatória.
+                        </label>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label class="checkbox-inline">
+                            <input type="checkbox"  value="Morientar higiene adequada no períneo."> Morientar higiene adequada no períneo.                    </label>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label class="checkbox-inline">
+                            <input type="checkbox"  value="Realizar curativos de acordo com a necessidade."> Realizar curativos de acordo com a necessidade.
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
             <div class="row">
                 <div class="col-lg-12">
                     <button id="gerar" type="button" class="btn btn-primary">Gerar</button>

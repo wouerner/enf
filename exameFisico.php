@@ -46,7 +46,7 @@
     </div>
     <div class="control-group">
         <label class="checkbox-inline col-lg-3">
-            <input type="radio"  value="option2"> fases de luto
+            <input type="radio"  value="fases de luto"> fases de luto
         </label>
         <div class="col-lg-4">
             <input class="form-control" type="text"  value="">
@@ -170,7 +170,7 @@
     <legend> Regulação térmica: </legend>
     <div class="form-group col-lg-4">
         <label class="checkbox-inline col-lg-4">
-            <input type="radio"  value="option2"> temp.
+            <input type="radio"  value="temp."> temp.
         </label>
         <div class="col-lg-6">
             <input class="form-control" type="text"  value="">
@@ -178,24 +178,24 @@
     </div>
     <div class="form-group">
         <label class="checkbox-inline">
-            <input type="radio"  value="option2"> cianose nas extremidades
+            <input type="radio"  value="cianose nas extremidades"> cianose nas extremidades
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="option2"> extremidades frias
+            <input type="radio"  value="extremidades frias"> extremidades frias
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="option2"> sudorese
+            <input type="radio"  value="sudorese"> sudorese
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="option2"> dor à palpação
+            <input type="radio"  value="dor à palpação"> dor à palpação
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="option2"> rubor/calor
+            <input type="radio"  value="rubor/calor"> rubor/calor
         </label>
     </div>
     <div class="form-group col-lg-4">
         <label class="checkbox-inline col-lg-4">
-            <input type="radio"  value="option2"> Outros 
+            <input type="radio"  value="Outros"> Outros 
         </label>
         <div class="col-lg-6">
             <input class="form-control" type="text"  value="">
@@ -214,7 +214,7 @@
     </div>
     <div class="form-group">
         <label class="checkbox-inline">
-            <input type="radio"  value="option2"> Tempo de enchimento capilar
+            <input type="radio"  value="Tempo de enchimento capilar"> Tempo de enchimento capilar
         </label>
     </div>
     <div class="form-group col-lg-4">

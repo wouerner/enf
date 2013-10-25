@@ -9,6 +9,8 @@
             <label>Idade:</label>
             <input id="anos" class="form-control" name="anos" placeholder="20 anos">
         </div>
+    </div>
+    <div class="row">
         <div class="form-group col-lg-5">
             <label class="control-label">Est. Civil:</label>
             <label class="radio-inline">

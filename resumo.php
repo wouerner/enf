@@ -17,7 +17,7 @@
             if (this.type == 'radio' && this.checked==true) {
                 texto = texto +', '+ this.value;
             } else {
-                if ((this.type=='text' && this.value != '') || ((this.type=='checkbox') && 
+                if ((this.type=='text' && this.value != '') || ((this.type=='checkbox') &&
                     jQuery(this).is(':checked') == true)
                     //this.checked==true
                     ) {
