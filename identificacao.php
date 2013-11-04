@@ -49,10 +49,10 @@
         <div class="form-group col-lg-4">
             <label class="control-label">Acompanhada do RN:</label>
             <label class="radio-inline">
-                <input type="radio" value="Sim"> Sim
+                <input type="radio" value="Acompanhada do RN:Sim"> Sim
             </label>
             <label class="checkbox-inline">
-                <input type="radio" value="Não"> Não
+                <input type="radio" value="Acompanhada do RN:Não"> Não
             </label>
         </div>
         <div class="form-group col-lg-8">

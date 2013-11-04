@@ -38,21 +38,21 @@
         <div class="form-group col-lg-6">
             <label>Isoimunização Rh:</label>
             <label class="checkbox-inline">
-                <input type="radio"  value="Sim"> Sim
+                <input name="Isoimunização" type="radio"  value="Isoimunização Rh:Sim"> Sim
             </label>
             <label class="checkbox-inline">
-                <input type="radio"  value="Não"> Não
+                <input  name="Isoimunização" type="radio"  value="Isoimunização Rh:Não"> Não
             </label>
         </div>
     </div>
     <div class="row">
         <div class="form-group col-lg-8">
             <label>História de RN pré-termo, pós-termo ou baixo peso:</label>
-            <label class="checkbox-inline">
-                <input type="radio"  value="Não"> Não
+            <label class="radio-inline">
+                <input name="termo" type="radio"  value="Não"> Não
             </label>
-            <label class="checkbox-inline">
-                <input type="radio"  value="Sim"> Sim
+            <label class="radio-inline">
+                <input name="termo" type="radio"  value="Sim"> Sim
             </label>
         </div>
         <div class="form-group col-lg-4">
@@ -62,20 +62,20 @@
     <div class="row">
         <div class="form-group col-lg-6">
             <label>Mortes neonatais:</label>
-            <label class="checkbox-inline">
-                <input type="radio"  value="Mortes neonatais: Sim"> Sim
+            <label class="radio-inline">
+                <input name="neonatais" type="radio"  value="Mortes neonatais: Sim"> Sim
             </label>
-            <label class="checkbox-inline">
-                <input type="radio"  value="Mortes neonatais: Não"> Não
+            <label class="radio-inline">
+                <input name="neonatais" type="radio"  value="Mortes neonatais: Não"> Não
             </label>
         </div>
         <div class="form-group col-lg-6">
             <label>Natimortos:</label>
             <label class="radio-inline">
-                <input type="radio"  value="Natimortos: Sim"> Sim
+                <input name="natimortos" type="radio"  value="Natimortos: Sim"> Sim
             </label>
             <label class="radio-inline">
-                <input type="radio"  value="Natimortos: Não"> Não
+                <input name="natimortos" type="radio"  value="Natimortos: Não"> Não
             </label>
         </div>
     </div>
@@ -100,12 +100,12 @@
         <div class="form-group col-lg-6">
             <label>Intercorrências ou complicações em gestações anteriores:</label>
             <label class="checkbox-inline">
-                <input type="radio"  value="Não"> Não
+                <input name="complicacoes" type="radio"  value="Não"> Não
             </label>
         </div>
         <div class="form-group col-lg-6">
             <label class="radio-inline col-lg-3">
-                <input type="radio"  value="Sim"> Sim
+                <input name="complicacoes" type="radio"  value="Sim"> Sim
             </label>
             <div class="col-lg-8">
                 <input class="form-control" type="text"  value="">
@@ -116,12 +116,12 @@
         <div class="form-group col-lg-6">
             <label>Complicações nos puerpérios</label>
             <label class="radio-inline">
-                <input type="radio"  value="Complicações nos puerpério Não"> Não
+                <input name="compPuerperios" type="radio"  value="Complicações nos puerpério Não"> Não
             </label>
         </div>
         <div class="form-group col-lg-6">
             <label class="radio-inline col-lg-3">
-                <input type="radio"  value="Sim"> Sim
+                <input  name="compPuerperios" type="radio"  value="Complicações nos puerpério Não Sim"> Sim
             </label>
             <div class="col-lg-8">
                 <input class="form-control" type="text"  value="">
@@ -132,12 +132,12 @@
         <div class="form-group col-lg-6">
             <label>Aleitamento de todos os filhos:</label>
             <label class="radio-inline">
-                <input type="radio"  value="Sim"> Sim
+                <input name="Aleitamento" type="radio"  value="Aleitamento de todos os filhos: Sim"> Sim
             </label>
         </div>
         <div class="form-group col-lg-6">
             <label class="radio-inline col-lg-3">
-                <input type="radio"  value="Não"> Não
+                <input  name="Aleitamento" type="radio"  value="Aleitamento de todos os filhos: Não"> Não
             </label>
             <div class="col-lg-8">
                 <input class="form-control" type="text"  value="">

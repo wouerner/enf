@@ -116,7 +116,12 @@
             </div>
             <div class="form-group">
                 <label>Status:</label>
-                <input class="form-control" type="text" value="">
+                <select >
+                    <option value="Status:Inicial" selected>Inicial</option>
+                    <option value="Status:Melhorado">Melhorado</option>
+                    <option value="Status:Piorado">Piorado</option>
+                    <option value="Status:Inalterado">Inalterado</option>
+                </select>
             </div>
             <fieldset>
                 <legend>Intervenções de enfermagem</legend>

@@ -1,7 +1,7 @@
 <fieldset>
     <legend>Gestação Atual</legend>
     <div class="form-group col-lg-2">
-        <label class="col-lg-4">DUM::</label>
+        <label class="col-lg-4">DUM:</label>
         <div class="form-group col-lg-8">
             <input class="form-control" name="filhoDe">
         </div>
