@@ -1,39 +1,33 @@
 <fieldset>
     <legend>Antecedentes Obstétricos / Perinatais:</legend>
+    <input type="hidden" value="<b>Antecedentes Obstétricos / Perinatais:</b>">
     <div class="row">
-        <div class="form-group col-lg-2">
-            <label class="control-label col-lg-3">G</label>
-            <div class="col-lg-9">
-                <input class="form-control" type="text" value="">
-            </div>
+        <div class="input-group col-lg-2">
+            <span class="input-group-addon">G</span>
+            <input id="G" type="text" class="form-control">
         </div>
-        <div class="form-group col-lg-2">
-            <label class="control-label col-lg-3">P</label>
-            <div class="col-lg-9">
-                <input  class="form-control" type="text" value="">
-            </div>
+        <div class="input-group col-lg-2">
+            <span class="input-group-addon">P</span>
+            <input  id="P" class="form-control" type="text">
         </div>
-        <div class="form-group col-lg-2">
-            <label class="control-label col-lg-3">C</label>
-            <div class="col-lg-9">
-                <input  class="form-control" type="text" value="">
-            </div>
+        <div class="input-group col-lg-2">
+            <span class="input-group-addon">C</span>
+            <input  id="C" class="form-control" type="text">
         </div>
-        <div class="form-group col-lg-2">
-            <label class="control-label col-lg-3">A</label>
-            <div class="col-lg-9">
-                <input  class="form-control" type="text" value="">
-            </div>
+        <div class="input-group col-lg-2">
+            <span class="input-group-addon">A</span>
+            <input  id="A" class="form-control" type="text">
         </div>
     </div>
+    <br>
     <div class="row">
         <div class="form-group col-lg-3">
             <label>Número de filhos vivos:</label>
-            <input class="form-control" name="filhoDe">
+            <input id="numFilhos" class="form-control">
         </div>
         <div class="form-group col-lg-3">
             <label>Última gestação:</label>
-            <input class="form-control" name="filhoDe">
+            <input id="ultimaGestacao" class="form-control">
         </div>
         <div class="form-group col-lg-6">
             <label>Isoimunização Rh:</label>
@@ -97,50 +91,53 @@
         </div>
     </div>
     <div class="row">
-        <div class="form-group col-lg-6">
+        <div class="form-group col-lg-12">
             <label>Intercorrências ou complicações em gestações anteriores:</label>
             <label class="checkbox-inline">
-                <input name="complicacoes" type="radio"  value="Não"> Não
+                <input name="complicacoes" type="checkbox"  value="<b>Intercorrências ou complicações em gestações anteriores:</b>Não."> Não
             </label>
         </div>
-        <div class="form-group col-lg-6">
-            <label class="radio-inline col-lg-3">
-                <input name="complicacoes" type="radio"  value="Sim"> Sim
+        <div class="form-group col-lg-12">
+            <label class="col-lg-1">
+                 Sim:
             </label>
-            <div class="col-lg-8">
-                <input class="form-control" type="text"  value="">
+            <div class="col-lg-10">
+                <input id="interComplicacoes" class="form-control" type="text"  value="">
             </div>
         </div>
     </div>
+    <br>
     <div class="row">
-        <div class="form-group col-lg-6">
+        <div class="form-group col-lg-12">
             <label>Complicações nos puerpérios</label>
             <label class="radio-inline">
-                <input name="compPuerperios" type="radio"  value="Complicações nos puerpério Não"> Não
+                <input name="compPuerperios" type="checkbox"  value="Complicações nos puerpério Não"> Não
             </label>
         </div>
-        <div class="form-group col-lg-6">
-            <label class="radio-inline col-lg-3">
-                <input  name="compPuerperios" type="radio"  value="Complicações nos puerpério Não Sim"> Sim
+        <div class="form-group col-lg-12">
+            <label class="radio-inline col-lg-1">
+                Sim
             </label>
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <input class="form-control" type="text"  value="">
             </div>
         </div>
     </div>
+    <br>
     <div class="row">
-        <div class="form-group col-lg-6">
+        <div class="form-group col-lg-12">
             <label>Aleitamento de todos os filhos:</label>
-            <label class="radio-inline">
-                <input name="Aleitamento" type="radio"  value="Aleitamento de todos os filhos: Sim"> Sim
+            <input name="Aleitamento" type="hidden" value="Aleitamento de todos os filhos:">
+            <label class="checkbox-inline">
+                <input name="Aleitamento" type="checkbox" value=" Sim"> Sim
             </label>
         </div>
-        <div class="form-group col-lg-6">
-            <label class="radio-inline col-lg-3">
-                <input  name="Aleitamento" type="radio"  value="Aleitamento de todos os filhos: Não"> Não
+        <div class="form-group col-lg-12">
+            <label class="col-lg-1">
+                Não:
             </label>
             <div class="col-lg-8">
-                <input class="form-control" type="text"  value="">
+                <input class="form-control" type="text">
             </div>
         </div>
     </div>

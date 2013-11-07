@@ -3,7 +3,7 @@
     <div class="row">
         <div class="form-group col-lg-6">
             <label>nome:</label>
-            <input class="form-control" name="nome" placeholder="" value="">
+            <input id="identificacao" class="form-control" name="nome" placeholder="" value="">
         </div>
         <div class="form-group col-lg-2">
             <label>Idade:</label>
@@ -34,13 +34,13 @@
         </div>
         <div class="form-group col-lg-4">
             <label class="col-lg-2">Data:</label>
-            <div class="col-lg-5">
+            <div class="col-lg-10">
                 <input id="data" class="form-control" name="">
             </div>
         </div>
         <div class="form-group col-lg-4">
             <label class="col-lg-2">Hora:</label>
-            <div class="col-lg-4">
+            <div class="col-lg-10">
                 <input id="hora" class="form-control" name="">
             </div>
         </div>
@@ -65,15 +65,16 @@
 </fieldset>
 <fieldset>
     <legend>Antecedentes Familiares</legend>
+    <input type="hidden" value="<b>Antecedentes Familiares:</b>">
     <div class="form-group col-lg-8">
         <label class="checkbox-inline">
-            <input type="checkbox" value="Hipertensão Arterial"> Hipertensão Arterial
+            <input type="checkbox" value="Hipertensão Arterial."> Hipertensão Arterial
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox"  value="Diabetes Mellitus"> Diabetes Mellitus
+            <input type="checkbox"  value="Diabetes Mellitus."> Diabetes Mellitus
         </label>
         <label class="checkbox-inline">
-            <input type="checkbox"  value="Nenhum"> Nenhum
+            <input type="checkbox"  value="Nenhum."> Nenhum
         </label>
     </div>
     <div class="form-group col-lg-4">
@@ -87,6 +88,7 @@
 </fieldset>
 <fieldset>
     <legend>Antecedentes Pessoais e Ginecológicos</legend>
+    <input type="hidden" value="<b>Antecedentes Pessoais e Ginecológicos:</b>">
     <div class="form-group">
         <div class="row">
             <div class="control-group col-lg-12">
