@@ -77,16 +77,16 @@
         <div class="form-group col-lg-12">
             <label>Recém-nascidos com:</label>
             <label class="checkbox-inline">
-                <input type="radio"  value="icterícia"> icterícia
+                <input class="" type="checkbox"  value="icterícia"> icterícia
             </label>
             <label class="checkbox-inline">
-                <input type="radio"  value="transfusão"> transfusão
+                <input type="checkbox"  value="transfusão"> transfusão
             </label>
             <label class="checkbox-inline">
-                <input type="radio"  value="hipoglicemia"> hipoglicemia
+                <input type="checkbox"  value="hipoglicemia"> hipoglicemia
             </label>
             <label class="checkbox-inline">
-                <input type="radio"  value="ex-sanguíneo-transfusões"> ex-sanguíneo-transfusões
+                <input type="checkbox"  value="ex-sanguíneo-transfusões"> ex-sanguíneo-transfusões
             </label>
         </div>
     </div>

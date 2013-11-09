@@ -3,10 +3,10 @@
     <div class="form-group col-lg-6">
         <label> Queixas:</label>
         <label class="checkbox-inline">
-            <input type="radio"  value="não"> não
+            <input name="queixas" type="radio"  value="não"> não
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="sim"> sim
+            <input  name="queixas" type="radio"  value="sim"> sim
         </label>
     </div>
     <div class="form-group col-lg-6">
@@ -17,36 +17,36 @@
     <div class="form-group">
         <label> Percepção sensorial / Regulação neurológica:</label>
         <label class="checkbox-inline">
-            <input type="radio"  value="acordada/lúcida"> acordada/lúcida
+            <input type="checkbox"  value="acordada/lúcida"> acordada/lúcida
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="comatosa/torporosa"> comatosa/torporosa
+            <input type="checkbox"  value="comatosa/torporosa"> comatosa/torporosa
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="desorientada/confusa"> desorientada/confusa
+            <input type="checkbox"  value="desorientada/confusa"> desorientada/confusa
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="BEG"> BEG
+            <input type="checkbox"  value="BEG"> BEG
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="REG"> REG
+            <input type="checkbox"  value="REG"> REG
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="PEG"> PEG
+            <input type="checkbox"  value="PEG"> PEG
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="Depressiva"> Depressiva
+            <input type="checkbox"  value="Depressiva"> Depressiva
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="Chorosa"> Chorosa
+            <input type="checkbox"  value="Chorosa"> Chorosa
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="ansiosa"> ansiosa
+            <input type="checkbox"  value="ansiosa"> ansiosa
         </label>
     </div>
     <div class="control-group">
         <label class="checkbox-inline col-lg-3">
-            <input type="radio"  value="fases de luto"> fases de luto
+            Fases de luto
         </label>
         <div class="col-lg-4">
             <input class="form-control" type="text"  value="">
@@ -212,10 +212,13 @@
             <span class="input-group-addon">irpm</span>
         </div>
     </div>
-    <div class="form-group">
+    <div class="form-group col-lg-4">
         <label class="checkbox-inline">
-            <input type="radio"  value="Tempo de enchimento capilar"> Tempo de enchimento capilar
+            Tempo de enchimento capilar
         </label>
+        <div class="col-lg-6">
+            <input type="text"  class="form-control" value=""> 
+        </div>
     </div>
     <div class="form-group col-lg-4">
         <label class="checkbox-inline col-lg-4">Saturação
@@ -295,25 +298,25 @@
     <div class="form-group">
         <legend>Integridade cutânea - Abdome:</legend>
         <label class="checkbox-inline">
-            <input type="radio"  value="normotenso"> normotenso
+            <input type="checkbox"  value="normotenso"> normotenso
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="flácido à palpação"> flácido à palpação
+            <input type="checkbox"  value="flácido à palpação"> flácido à palpação
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="distendido"> distendido
+            <input type="checkbox"  value="distendido"> distendido
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="tônus aumentado"> tônus aumentado
+            <input type="checkbox"  value="tônus aumentado"> tônus aumentado
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="presença de RHA"> presença de RHA
+            <input type="checkbox"  value="presença de RHA"> presença de RHA
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="presença de dor"> presença de dor 
+            <input type="checkbox"  value="presença de dor"> presença de dor 
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="indolor à palpação."> indolor à palpação.
+            <input type="checkbox"  value="indolor à palpação."> indolor à palpação.
         </label>
     </div>
 </fieldset>
@@ -321,28 +324,28 @@
     <div class="form-group">
         <label>Integridade cutânea e Mecânica corporal - Membros Inferiores:</label>
         <label class="checkbox-inline">
-            <input type="radio"  value="edema"> edema
+            <input type="checkbox"  value="edema"> edema
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="varizes"> varizes
+            <input type="checkbox"  value="varizes"> varizes
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="deambula"> deambula
+            <input type="checkbox"  value="deambula"> deambula
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="restrita ao leito"> restrita ao leito
+            <input type="checkbox"  value="restrita ao leito"> restrita ao leito
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="Homans +"> Homans +
+            <input type="checkbox"  value="Homans +"> Homans +
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="Bandeira +"> Bandeira +
+            <input type="checkbox"  value="Bandeira +"> Bandeira +
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="Bancroft +"> Bancroft +
+            <input type="checkbox"  value="Bancroft +"> Bancroft +
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="triagem TVP negativa"> triagem TVP negativa
+            <input type="checkbox"  value="triagem TVP negativa"> triagem TVP negativa
         </label>
     </div>
 </fieldset>

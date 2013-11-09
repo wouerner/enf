@@ -84,17 +84,6 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-            <label>Sinais Flogísticos:</label>
-            <label class="checkbox-inline">
-                <input type="radio" value="sim"> sim
-            </label>
-            <label class="checkbox-inline">
-                <input type="radio" value="não"> não
-            </label>
-        </div>
-    </div>
-    <div class="row">
         <div class="col-lg-12">
             <label>Sangramento</label>
             <label class="checkbox-inline">

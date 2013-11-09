@@ -3,49 +3,49 @@
     <div class="form-group">
         <label>Hepatite B e C</label>
         <label class="checkbox-inline">
-            <input type="radio"  value="imune"> imune
+            <input name="imunologica" type="radio"  value="imune"> imune
+        </label>
+        <label   class="checkbox-inline">
+            <input name="imunologica" type="radio"  value="suscetível"> suscetível
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="suscetível"> suscetível
-        </label>
-        <label class="checkbox-inline">
-            <input type="radio"  value="não realizada"> não realizada
+            <input  name="imunologica" type="radio"  value="não realizada"> não realizada
         </label>
     </div>
     <div class="form-group">
         <label>Rubéola</label>
         <label class="radio-inline">
-            <input type="radio"  value="imune"> imune
+            <input name="rubeola" type="radio"  value="imune"> imune
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="suscetível"> suscetível
+            <input  name="rubeola" type="radio"  value="suscetível"> suscetível
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="não realizada"> não realizada
+            <input  name="rubeola" type="radio"  value="não realizada"> não realizada
         </label>
     </div>
     <div class="form-group">
         <label>Toxoplasmose</label>
         <label class="checkbox-inline">
-            <input type="radio"  value="imune"> imune
+            <input  name="Toxoplasmose" type="radio"  value="imune"> imune
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="suscetível"> suscetível
+            <input  name="Toxoplasmose" type="radio"  value="suscetível"> suscetível
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="não realizada"> não realizada
+            <input  name="Toxoplasmose" type="radio"  value="não realizada"> não realizada
         </label>
     </div>
     <div class="form-group">
         <label>VDRL</label>
         <label class="checkbox-inline">
-            <input type="radio"  value="VDRL imune"> imune
+            <input name="VDRL" type="radio"  value="VDRL imune"> imune
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="VDRL suscetível"> suscetível
+            <input  name="VDRL" type="radio"  value="VDRL suscetível"> suscetível
         </label>
         <label class="checkbox-inline">
-            <input type="radio"  value="VDRL não realizada"> não realizada
+            <input  name="VDRL" type="radio"  value="VDRL não realizada"> não realizada
         </label>
     </div>
     <div class="form-group">
@@ -53,8 +53,8 @@
         <label class="checkbox-inline">
             <input name="hiv" type="radio"  value="HIV imune"> imune
         </label>
-        <label name="hiv" class="checkbox-inline">
-            <input type="radio"  value="HIV suscetível"> suscetível
+        <label class="checkbox-inline">
+            <input  name="hiv" type="radio"  value="HIV suscetível"> suscetível
         </label>
         <label class="checkbox-inline">
             <input name="hiv" type="radio"  value="HIV não realizada"> não realizada
@@ -66,34 +66,34 @@
     <div class="form-group">
         <label>Hep. B</label>
         <label class="radio-inline">
-            <input type="radio"  value="Hep. B imune"> imune
+            <input name="hep" type="radio"  value="Hep. B imune"> imune
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="Hep. B não vacinada"> não vacinada
+            <input  name="hep" type="radio"  value="Hep. B não vacinada"> não vacinada
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="Hep. B esquema incompleto"> esquema incompleto
+            <input  name="hep" type="radio"  value="Hep. B esquema incompleto"> esquema incompleto
         </label>
     </div>
     <div class="form-group">
         <label>Tétano</label>
         <label class="radio-inline">
-            <input type="radio"  value="Tétano imune"> imune
+            <input name="tetano" type="radio"  value="Tétano imune"> imune
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="Tétano não vacinada"> não vacinada
+            <input  name="tetano" type="radio"  value="Tétano não vacinada"> não vacinada
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="Tétano não vacinada"> não vacinada
+            <input  name="tetano" type="radio"  value="Tétano não vacinada"> não vacinada
         </label>
     </div>
     <div class="form-group">
         <label>Influenza Sazonal</label>
         <label class="radio-inline">
-            <input type="radio"  value="Influenza Sazonal imune"> imune
+            <input name="Influenza" type="radio"  value="Influenza Sazonal imune"> imune
         </label>
         <label class="radio-inline">
-            <input type="radio"  value="Influenza Sazonal não vacinada"> não vacinada
+            <input  name="Influenza" type="radio"  value="Influenza Sazonal não vacinada"> não vacinada
         </label>
     </div>
 </fieldset>

@@ -1,33 +1,28 @@
 <fieldset>
     <legend>Gestação Atual</legend>
-    <div class="form-group col-lg-2">
-        <label class="col-lg-4">DUM:</label>
-        <div class="form-group col-lg-8">
-            <input class="form-control" name="filhoDe">
+    <div class="row">
+        <div class="form-group col-lg-2">
+            <label class="col-lg-4">DUM:</label>
+            <div class="form-group col-lg-8">
+                <input class="form-control" name="filhoDe">
+            </div>
         </div>
-    </div>
-    <div class="form-group col-lg-2">
-        <label class="col-lg-4">IG:</label>
-        <div class="form-group col-lg-8">
-            <input class="form-control" name="filhoDe">
+        <div class="form-group col-lg-2">
+            <label class="col-lg-4">IG:</label>
         </div>
-    </div>
-    <div class="form-group col-lg-2">
-        <label class="col-lg-4">semanas</label>
-        <div class="form-group col-lg-8">
-            <input class="form-control" name="filhoDe">
+        <div class="input-group col-lg-2">
+            <input type="text" class="form-control">
+            <span class="input-group-addon">semanas</span>
         </div>
-    </div>
-    <div class="form-group col-lg-2">
-        <label class="col-lg-4">dias</label>
-        <div class="form-group col-lg-8">
-            <input class="form-control" name="filhoDe">
+        <div class="input-group col-lg-2">
+            <input type="text" class="form-control">
+            <span class="input-group-addon">dias</span>
         </div>
-    </div>
-    <div class="form-group col-lg-4">
-        <label class="col-lg-4">DPP</label>
-        <div class="form-group col-lg-8">
-            <input class="form-control" name="filhoDe">
+        <div class="form-group col-lg-4">
+            <label class="col-lg-4">DPP</label>
+            <div class="form-group col-lg-8">
+                <input class="form-control" name="filhoDe">
+            </div>
         </div>
     </div>
     <div class="form-group col-lg-3">

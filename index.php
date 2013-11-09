@@ -150,7 +150,7 @@
                     </div>
                     <div class="form-group col-lg-6">
                         <label class="checkbox-inline">
-                            <input type="checkbox"  value="Morientar higiene adequada no períneo."> Morientar higiene adequada no períneo.                    </label>
+                            <input type="checkbox"  value="Morientar higiene adequada no períneo."> Monitorar higiene adequada no períneo.</label>
                     </div>
                     <div class="form-group col-lg-6">
                         <label class="checkbox-inline">
@@ -175,5 +175,14 @@
             ga('create', 'UA-44121271-2', 'wouerner.eti.br');
             ga('send', 'pageview');
         </script>
+    <script type="text/javascript">
+    var _urq = _urq || [];
+    _urq.push(['initSite', '295f65d0-17d9-4ec8-b09a-aaeba0765996']);
+    (function() {
+    var ur = document.createElement('script'); ur.type = 'text/javascript'; ur.async = true;
+    ur.src = ('https:' == document.location.protocol ? 'https://cdn.userreport.com/userreport.js' : 'http://cdn.userreport.com/userreport.js');
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ur, s);
+    })();
+    </script> 
     </body>
 </html>
